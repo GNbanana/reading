@@ -1,0 +1,241 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.contect{
+    background: #e1e0e0;
+    padding: 0;
+    margin: 0;
+}
+
+.contect_banner{
+    text-align: center;
+    min-width: 350px;
+    position: relative;
+}
+
+.contect_banner img{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.contect_banner p{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 55px;
+    width: 360px;
+    margin-left: -180px;
+    margin-top: -70px;
+    line-height: 55px;
+    color: white;
+    font-size: 1.6em;
+    font-weight: 600;
+    letter-spacing: 0.3em;
+    font-family: "Adobe 黑体 Std R";
+    border: white solid 5px;
+}
+
+.pics{
+    background: black;
+    width: 100%;
+    height: auto;
+    margin-top: -50px;
+    padding-top: 150px;
+    padding-bottom: 200px;
+}
+
+.pics_container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pics_container span{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.pics_container a{
+    display: block;
+
+    text-decoration: none;
+}
+
+.loadmore{
+    width: 100%;
+    height: 360px;
+    position: relative;
+}
+
+.load_button{
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -35px;
+    margin-left: -150px;
+    height: 70px;
+    width: 300px;
+    background: chocolate;
+    color: white;
+    box-shadow:1px 1px 10px 0 #ccc;
+    border: none;
+    letter-spacing: 0.2em;
+    font-size: 1.4em;
+    font-weight: 600;
+   font-family: "Microsoft JhengHei Light" ;
+}
+
+.footer{
+    width: 100%;
+    height: 300px;
+    background: black;
+    text-align: center;
+}
+
+.footer_back{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+.footer_back p{
+    margin-top: 30px;
+    letter-spacing: 0.5em;
+    color: #ccc;
+}
+
+@media screen and (max-width: 1024px){
+    .contect_banner p{
+        width: 300px;
+        margin-left: -150px;
+    }
+    .load_button{
+        margin-top: -30px;
+        margin-left: -120px;
+        height: 60px;
+        width: 240px;
+        font-size: 1.2em;
+    }
+    .loadmore{
+        height: 320px;
+    }
+    .footer_back{
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .contect_banner p{
+        width: 240px;
+        height: 46px;
+        margin-left: -120px;
+        margin-top: -23px;
+        line-height: 45px;
+        font-size: 1.4em;
+        letter-spacing: 0.2em;
+        border: white solid 4px;
+    }
+    .load_button{
+        margin-top: -25px;
+        margin-left: -110px;
+        height: 50px;
+        width: 220px;
+        font-size: 1.0em;
+    }
+    .loadmore{
+        height: 280px;
+    }
+    .footer{
+        height: 260px;
+    }
+    .footer_back img{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .contect_banner p{
+        width: 200px;
+        height: 40px;
+        margin-top: -20px;
+        margin-left: -100px;
+        line-height: 40px;
+        font-size: 1.0em;
+        letter-spacing: 0.1em;
+        border: white solid 3px;
+    }
+    .load_button{
+        margin-top: -20px;
+        margin-left: -100px;
+        height: 40px;
+        width: 200px;
+        letter-spacing: 0.1em;
+        font-size: 0.8em;
+    }
+    .loadmore{
+        height: 220px;
+    }
+    .footer{
+        height: 200px;
+    }
+    .footer_back{
+        padding-top: 30px;
+    }
+    .footer_back img{
+        width: 80px;
+        height: 80px;
+    }
+    .footer_back p{
+        margin-top: 20px;
+        letter-spacing: 0.3em;
+        font-size: 0.8em;
+        color: #ccc;
+    }
+}
+
+
+@media screen and (max-width: 320px){
+    .contect_banner p{
+        width: 120px;
+        height: 26px;
+        margin-left: -60px;
+        margin-top: -13px;
+        line-height: 25px;
+        font-size: 0.6em;
+        letter-spacing: 0.1em;
+        border: white solid 2px;
+    }
+    .load_button{
+        margin-top: -15px;
+        margin-left: -70px;
+        height: 30px;
+        width: 140px;
+        letter-spacing: 0.1em;
+        font-size: 0.6em;
+    }
+    .loadmore{
+        height: 150px;
+    }
+    .footer{
+        height: 150px;
+    }
+    .footer_back{
+        padding-top: 30px;
+    }
+    .footer_back img{
+        width: 50px;
+        height: 50px;
+    }
+    .footer_back p{
+        margin-top: 20px;
+        letter-spacing: 0.2em;
+        font-size: 0.6em;
+        color: #ccc;
+    }
+}
+
